@@ -1,28 +1,40 @@
-name: Freedom
 favicon: null
-layout_spectrum: 0.20455989544279873
-typography_spectrum: 0.44924029731191695
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Freedom
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7866578388493508
+  brandStrength: 0.7454659519717097
+  rhythmicContrast: 0.504357369383797
   brandColors:
     - '#F7EDF0'
     - '#F4CBC6'
     - '#F4AFAB'
     - '#F4EEA9'
     - '#F4F482'
-  brandStrength: 0.7454659519717097
   lightness: 0.6390369941946119
-  saturation: 0.7866578388493508
-  rhythmicContrast: 0.504357369383797
-purpose: []
+typography_spectrum: 0.4492402973119169
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.9350161
+analytics:
+  twitter: null
+  google: null
+  facebook: null
